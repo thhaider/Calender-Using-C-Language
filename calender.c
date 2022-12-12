@@ -29,7 +29,7 @@ int main()
     {
 
         daysInMonth = monthDay[month];
-        printf("\n\n---------------%s-------------------\n", months[month]);
+        printf("\n\n---------------%s %d-------------------\n", months[month],year);
         printf("\n  Sun  Mon  Tue  Wed  Thurs  Fri  Sat\n");
 
         for (weekDay = 0; weekDay < startingDay; weekDay++)
